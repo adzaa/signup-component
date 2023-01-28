@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="abdulah-dzankic.netlify.app/">Abdulah Džankić</a>.
+    </p>
+    <div class="container">
+      <div class="text-container">
+        <h1 class="login-heading">Learn to code by watching others</h1>
+        <p class="login-paragraph">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="form-container">
+        <p class="login-add">
+          <span style="font-weight: bold">Try it free 7 days </span>then $20/mo.
+          thereafter
+        </p>
+        <div class="form">
+          <input
+            id="inp"
+            type="txt"
+            required
+            placeholder="First Name"
+            name="fName"
+          />
+          <p id="input-empty-fname">First Name cannot be empty</p>
+          <input
+            id="inp"
+            type="txt"
+            required
+            placeholder="Last Name"
+            name="lName"
+          />
+          <p id="input-empty-lname">Last Name cannot be empty</p>
+          <input
+            id="email"
+            type="txt"
+            required
+            placeholder="Email"
+            name="Email"
+          />
+          <p id="input-empty-email">Email cannot be empty</p>
+
+          <input
+            id="inp"
+            type="password"
+            required
+            placeholder="Password"
+            name="Password"
+          />
+          <p id="input-empty-password">Password cannot be empty</p>
+
+          <button onclick="submit()">Claim your free trial</button>
+          <p class="terms">
+            By clicking the button, you are agreeing to our
+            <a href="#" class="terms-link">&nbsp;Terms and Services</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
